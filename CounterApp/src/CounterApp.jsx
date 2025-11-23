@@ -41,7 +41,7 @@
   setcount(prev=>prev+1) //it update previous value as it get previous val
   setCount(prev => prev + 1);// this will increment twice correctly 
 
-  setcount(count=count+1)// it updates current value
+  setcount(count+1)// it updates current value
   setCount(count + 1);//You might expect the count to increase by 2, but it only increases by 1 — because both calls use the same stale value of count.;
 
 */}
